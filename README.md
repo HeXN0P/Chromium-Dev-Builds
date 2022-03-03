@@ -1,5 +1,5 @@
 # Chromium-Dev-Builds
-This is Chromium build up to date with custom argument:
+This is Chromium up to date Windows 64-bits build with custom arguments:
 
 chrome_pgo_phase = 0
 current_cpu = "x64"
@@ -29,3 +29,4 @@ media_use_openh264 = true
 use_thin_lto = true
 exclude_unwind_tables = true
 is_official_build = true
+enable_resource_allowlist_generation = false
